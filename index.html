@@ -1,57 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<style type="text/css">
-		body {
-			padding: 0;
-			margin: 0;
-			font-family: "Commissioner";
-			font-size: 19pt;
-		}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <title>Zachary Lucier | Tutoring</title>
+  <style>
+    a {
+      line-break: anywhere;
+    }
+  </style>
+  <style id="theme">
 
-		div {
-			padding: 0;
-			margin: 0;
-			text-align: center;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
-		}
+    html {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 2;
+    }
+    body {
+      font-family: "Cormorant Garamond";
+      padding: 30px;
+      margin: 0;
+      font-size: 18px;
+      line-height: 1em;
+      background-color: #F5F5F5;
+      color: #333333;
+      max-width: 600px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      font-weight: 400;
+    }
+    h1 {
+      padding: 0;
+      margin: 0.5em 0 0.5em 0;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 1.1em;
+    }
+    h2 {
+      padding: 0;
+      margin: 1.5em 0 0.5em 0;
+      font-size: 26px;
+      line-height: 1em;
+      font-style: italic;
+      font-weight: 400;
+    }
+    p {
+      padding: 0;
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.2em;
+    }
 
-		h1 {
-			font-family: "Work Sans";
-			font-size: 38pt;
-			font-weight: 700;
-			line-height: 0.9;
-		}
-
-		a:link {
-			color: black;
-		}
-
-		a:hover {
-			color: #FF9500;
-		}
-
-		a:visited {
-			color: black;
-		}
-
-		@font-face {
-		  	font-family: "Work Sans";
-		  	src: url(WorkSans-VariableFont_wght.ttf) format("truetype");
-		}
-
-		@font-face {
-		  	font-family: "Commissioner";
-		  	src: url(Commissioner-VariableFont_wght.ttf) format("truetype");
-		}
-	</style>
+    .wrapper {
+      text-align: center;
+    }
+    @font-face {
+      font-family: "Cormorant Garamond";
+      src: url(CormorantGaramond-Regular.ttf) format("truetype");
+      font-weight: 400;
+    }
+    @font-face {
+      font-family: "Cormorant Garamond";
+      src: url(CormorantGaramond-Italic.ttf) format("truetype");
+      font-weight: 400;
+      font-style: italic;
+    }
+    @font-face {
+      font-family: "Cormorant Garamond";
+      src: url(CormorantGaramond-Bold.ttf) format("truetype");
+      font-weight: 700;
+    }
+    @font-face {
+      font-family: "Cormorant Garamond";
+      src: url(CormorantGaramond-BoldItalic.ttf) format("truetype");
+      font-weight: 700;
+      font-style: italic;
+    }
+  </style>
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/styles/github.min.css">
+  <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.16.2/build/highlight.min.js"></script>
 </head>
 <body>
-	<div>
-		<h1>Welcome to Zach's cocktail page</h1>
-		<p>To get the recipe book click <a href="Cocktails.pdf">here</a></p>
-	</div>
-</body>
+  <h1>
+    Cocktails
+  </h1>
+  <h2><b>Prickly Pear Margarita</b> • 2.5 oz / 1.5 oz</h2>
+  <p>Espolòn Tequila Blanco, Cointreau, lime juice, prickly pear syrup. Served with a lime wheel and salt rim. Optionally with habanero tincture.</p>
+  <h2><b>Blueberry Thyme Gimlet</b> • 2 oz</h2>
+  <p>Bombay Sapphire London Dry Gin, lime juice, blueberry syrup, thyme. Served straight up with fresh blueberries.</p>
+  <h2><b>Maple Whiskey Sour</b> • 2 oz</h2>
+  <p>Dillon’s Rye, Nonino Quintessentia Amaro, egg whites, lemon juice, maple syrup. Served straight up with Angostura bitters to garnish.</p>
+  <h2><b>Paper Plane</b> • 2.25 oz</h2>
+  <p>Buffalo Trace Bourbon, Nonino Quintessentia Amaro, Aperol, lemon juice. Served straight up with a miniature paper plane.</p>
+  <h2><b>Pineapple Daiquiri</b> • 2 oz</h2>
+  <p>Plantation Pineapple Rum, lime juice, simple syrup. Served straight up with a lime wheel.</p>
+  <h2><b>Mai Tai</b> • 2.5 oz</h2>
+  <p>Blend of Jamaican rums, Pierre Ferrand Dry Curaçao, lime juice, orgeat, Angostura bitters. Served with a mint sprig and flames.</p>
+  </body>
+  <h2><b>Tokyo Cosmopolitan</b> • 2.25 oz</h2>
+  <p>Absolut Citron Vodka, Cointreau, cranberry juice, lime juice, yuzu syrup. Served with an orange twist.</p>
+  </body>
+  <h2><b>Passion Mule</b> • 2 oz / 1 oz</h2>
+  <p>Ketel One Vodka, lime juice, passion fruit syrup, ginger beer, Angostura bitters. Served with a mint sprig and a halved passion fruit.</p>
+  <h2><b>Old Fashioned</b> • 2 oz</h2>
+  <p>Buffalo Trace Bourbon, demerara syrup, Angostura bitters. Served with an orange twist and an Amarena cherry.</p>
+  </body>
+  <h2><b>Black Manhattan</b> • 3 oz</h2>
+  <p>Dillon’s Rye, Averna Amaro, bitters. Served straight up with a Luxardo Cherry.</p>
+  <h2><b>Martini</b> • 2.5 oz</h2>
+  <p>Roku Gin or Empress 1908 Gin, Dolin Dry Vermouth, orange bitters. Served straight up with a lemon twist.</p>
+  <h2><b>White Negroni</b> • 2.5 oz</h2>
+  <p>Ungava Gin, Yellow Chartreuse, St-Germain, Dolin Dry Vermouth, lemon oil. Served with a thyme sprig.</p>
+  </body>
+</html>
